@@ -1,6 +1,7 @@
 """
 Broadcast orchestration for ┴ROOF Radio
 Manages the infinite conversation loop with pipeline buffering and topic evolution
++ Writers Room conversation direction
 """
 
 import time
@@ -13,7 +14,8 @@ from memory import Memory
 from tts import get_tts_engine
 from pipeline_buffer import PipelineBuffer
 from topic_evolver import TopicEvolver
-
+from writers_room import Director  # NEW: Writers Room import
+from writers_room.guide import ThePoint
 
 class TroofRadio:
     def __init__(self, config):
@@ -36,6 +38,12 @@ class TroofRadio:
         self.topic_evolver = TopicEvolver(max_history=10)
         self.host_messages = []  # Track host messages for evolution
         
+        # NEW: Initialize Writers Room Director
+        print("[✍️  Initializing Writers Room Director...]")
+        self.director = Director(
+            model="deepseek-r1:14b",
+            intervention_frequency=3  # Every 3 exchanges
+        )
         # Create interns
         self.taco = create_intern("taco", self.config)
         self.clunt = create_intern("clunt", self.config)
@@ -44,6 +52,13 @@ class TroofRadio:
         self.goku = create_host("goku", self.config, "taco")
         self.homer = create_host("homer", self.config, "clunt")
         
+        # NEW: Wire director to both hosts
+        self.goku.director = self.director
+        self.homer.director = self.director
+        print("[✍️  Writers Room connected to hosts]")
+        
+        self.director.goku = self.goku
+        self.director.homer = self.homer
         # Track state
         self.running = True
         self.exchange_count = 0
@@ -61,6 +76,16 @@ class TroofRadio:
         if filepath:
             print(f"[Conversation saved to: {filepath}]")
         
+        # NEW: Print conversation health report from Director
+        if hasattr(self, 'director'):
+            health = self.director.get_conversation_health()
+            print(f"[✍️  Conversation health: {health.get('status', 'unknown')}]")
+            print(f"[✍️  Final saturation: {health.get('saturation', 0):.0%}]")
+            print(f"[✍️  Final energy: {health.get('energy_level', 0):.0%}]")
+        
+        summary = self.the_point.get_point_summary()
+        print(f"\n[📍 Point: '{summary['essence']}' - "
+            f"Saturation {summary['saturation']:.0%}]")
         print("[Thanks for listening!]")
         sys.exit(0)
     
@@ -71,7 +96,10 @@ class TroofRadio:
         Args:
             topic: Topic to discuss
         """
-        
+        self.the_point = ThePoint(topic)
+        print(f"[📍 The Point tracking: '{topic}']")
+        self.director.set_the_point(self.the_point) 
+        self.director.point_monitoring = False
         self._print_header(topic)
         self._print_startup_messages()
         
@@ -136,7 +164,11 @@ class TroofRadio:
                 
                 # Memory phase
                 self._save_exchange(current_speaker.name, message, research)
-                
+                self.the_point.update_point_from_exchange(
+                    host_name=current_speaker.name,
+                    message=message,
+                    research_context=research
+                )
                 # Prepare for next exchange
                 previous_message = message
                 current_speaker = next_speaker

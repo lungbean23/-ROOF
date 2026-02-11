@@ -1,6 +1,6 @@
 """
 Text-to-Speech module for ┴ROOF Radio
-Using Edge-TTS for free, high-quality voices
+Using Edge-TTS with automatic SSML for expressive speech
 """
 
 import subprocess
@@ -8,14 +8,15 @@ import platform
 import os
 import asyncio
 import tempfile
+import re
 from pathlib import Path
 
-# Try to import edge_tts
 try:
     import edge_tts
     EDGE_TTS_AVAILABLE = True
 except ImportError:
     EDGE_TTS_AVAILABLE = False
+
 
 class TTS:
     def __init__(self, voice_type="edge"):
@@ -99,11 +100,15 @@ class TTS:
 VOICE_MAP = {
     "Goku": {
         "edge": "en-US-GuyNeural",  # Energetic, clear voice
+         "rate": "-1%",
+        "pitch": "+2Hz",
         "espeak": "en+m3",
         "piper": "en_US-lessac-medium"
     },
     "Homer": {
         "edge": "en-US-ChristopherNeural",  # More relaxed, conversational
+         "rate": "-1%",
+        "pitch": "-1Hz",
         "espeak": "en+m7",
         "piper": "en_US-ryan-medium"
     }

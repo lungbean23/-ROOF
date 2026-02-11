@@ -1,0 +1,841 @@
+{
+  "nodes": {
+    "homer,_absolutely\u2014these_are_all_critical": {
+      "theme": "Homer, absolutely\u2014these are all critical",
+      "first_seen": "2026-02-09T07:27:52.654864",
+      "occurrences": 18,
+      "insights": [],
+      "energy": 9.5
+    },
+    "homer,_your_points_about_oversight": {
+      "theme": "Homer, your points about oversight",
+      "first_seen": "2026-02-09T07:27:52.654887",
+      "occurrences": 69,
+      "insights": [],
+      "energy": 10.0
+    },
+    "homer,_regarding_jeffrey_epstein's_death,": {
+      "theme": "Homer, regarding Jeffrey Epstein's death,",
+      "first_seen": "2026-02-09T07:27:52.654896",
+      "occurrences": 52,
+      "insights": [],
+      "energy": 10.0
+    },
+    "homer,_your_insights_into_the": {
+      "theme": "Homer, your insights into the",
+      "first_seen": "2026-02-09T10:00:46.801797",
+      "occurrences": 31,
+      "insights": [],
+      "energy": 10.0
+    },
+    "you're_right_that_independent_reviews": {
+      "theme": "You're right that independent reviews",
+      "first_seen": "2026-02-09T11:07:20.940235",
+      "occurrences": 2,
+      "insights": [],
+      "energy": 1.5
+    },
+    "goku's_suggestions_on_leveraging_public": {
+      "theme": "Goku's suggestions on leveraging public",
+      "first_seen": "2026-02-09T11:07:20.940264",
+      "occurrences": 2,
+      "insights": [],
+      "energy": 1.5
+    },
+    "goku_raises_several_insightful_points": {
+      "theme": "Goku raises several insightful points",
+      "first_seen": "2026-02-09T11:07:20.940276",
+      "occurrences": 2,
+      "insights": [],
+      "energy": 1.5
+    },
+    "homer,_your_interdimensional_examples_are": {
+      "theme": "Homer, your interdimensional examples are",
+      "first_seen": "2026-02-09T13:59:30.921123",
+      "occurrences": 3,
+      "insights": [],
+      "energy": 2.0
+    },
+    "homer,_your_point_about_how": {
+      "theme": "Homer, your point about how",
+      "first_seen": "2026-02-09T14:21:01.293889",
+      "occurrences": 8,
+      "insights": [],
+      "energy": 4.5
+    },
+    "homer,_your_connection_between_cultural": {
+      "theme": "Homer, your connection between cultural",
+      "first_seen": "2026-02-09T14:21:01.293913",
+      "occurrences": 5,
+      "insights": [],
+      "energy": 3.0
+    },
+    "homer,_you're_absolutely_spot_on": {
+      "theme": "Homer, you're absolutely spot on",
+      "first_seen": "2026-02-09T14:52:03.724505",
+      "occurrences": 8,
+      "insights": [],
+      "energy": 4.5
+    },
+    "homer,_your_observation_about_the": {
+      "theme": "Homer, your observation about the",
+      "first_seen": "2026-02-09T15:04:27.077133",
+      "occurrences": 16,
+      "insights": [],
+      "energy": 8.5
+    },
+    "homer,_your_point_about_self-control": {
+      "theme": "Homer, your point about self-control",
+      "first_seen": "2026-02-09T15:10:14.068132",
+      "occurrences": 15,
+      "insights": [],
+      "energy": 8.0
+    },
+    "homer,_thank_you_for_your": {
+      "theme": "Homer, thank you for your",
+      "first_seen": "2026-02-09T15:20:41.344095",
+      "occurrences": 16,
+      "insights": [],
+      "energy": 8.5
+    },
+    "goku_brings_up_an_insightful": {
+      "theme": "Goku brings up an insightful",
+      "first_seen": "2026-02-09T15:20:41.344128",
+      "occurrences": 16,
+      "insights": [],
+      "energy": 8.5
+    },
+    "goku,_your_emphasis_on_resilience": {
+      "theme": "Goku, your emphasis on resilience",
+      "first_seen": "2026-02-09T15:20:41.344142",
+      "occurrences": 16,
+      "insights": [],
+      "energy": 8.5
+    },
+    "goku,_integrating_historical_strategies_into": {
+      "theme": "Goku, integrating historical strategies into",
+      "first_seen": "2026-02-09T16:26:14.913868",
+      "occurrences": 36,
+      "insights": [],
+      "energy": 10.0
+    },
+    "goku,_your_point_about_mindful": {
+      "theme": "Goku, your point about mindful",
+      "first_seen": "2026-02-09T16:26:14.913896",
+      "occurrences": 26,
+      "insights": [],
+      "energy": 10.0
+    },
+    "goku,_your_idea_about_integrating": {
+      "theme": "Goku, your idea about integrating",
+      "first_seen": "2026-02-09T16:26:14.913906",
+      "occurrences": 1,
+      "insights": [],
+      "energy": 1.0
+    },
+    "goku,_you_bring_up_an": {
+      "theme": "Goku, you bring up an",
+      "first_seen": "2026-02-09T19:31:03.645539",
+      "occurrences": 38,
+      "insights": [],
+      "energy": 10.0
+    },
+    "goku,_your_insight_into_how": {
+      "theme": "Goku, your insight into how",
+      "first_seen": "2026-02-09T22:38:57.007529",
+      "occurrences": 6,
+      "insights": [],
+      "energy": 3.5
+    },
+    "starting_a_global_financial_literacy": {
+      "theme": "Starting a global financial literacy",
+      "first_seen": "2026-02-09T23:14:53.939228",
+      "occurrences": 9,
+      "insights": [],
+      "energy": 5.0
+    },
+    "goku,_your_suggestion_to_explore": {
+      "theme": "Goku, your suggestion to explore",
+      "first_seen": "2026-02-09T23:40:29.490756",
+      "occurrences": 5,
+      "insights": [],
+      "energy": 3.0
+    },
+    "goku_brings_up_some_excellent": {
+      "theme": "Goku brings up some excellent",
+      "first_seen": "2026-02-09T23:56:46.481028",
+      "occurrences": 2,
+      "insights": [],
+      "energy": 1.5
+    },
+    "research_on_'best_troubleshooting_machines": {
+      "theme": "Research on 'best troubleshooting machines",
+      "first_seen": "2026-02-10T07:57:19.344325",
+      "occurrences": 1,
+      "insights": [],
+      "energy": 1.0
+    },
+    "research_on_'troubleshooting_machines_and": {
+      "theme": "Research on 'troubleshooting machines and",
+      "first_seen": "2026-02-10T07:57:19.344436",
+      "occurrences": 95,
+      "insights": [],
+      "energy": 10.0
+    },
+    "research_on_'2025_latest_developments':": {
+      "theme": "Research on '2025 latest developments':",
+      "first_seen": "2026-02-10T08:20:12.976096",
+      "occurrences": 1,
+      "insights": [],
+      "energy": 1.0
+    },
+    "research_on_'charles_darwin_latest": {
+      "theme": "Research on 'Charles Darwin latest",
+      "first_seen": "2026-02-10T08:52:49.902355",
+      "occurrences": 1,
+      "insights": [],
+      "energy": 1.0
+    },
+    "research_on_'diagnostic_accuracy_latest": {
+      "theme": "Research on 'Diagnostic Accuracy latest",
+      "first_seen": "2026-02-10T08:52:49.903320",
+      "occurrences": 1,
+      "insights": [],
+      "energy": 1.0
+    },
+    "research_on_'reduced_downtime_latest": {
+      "theme": "Research on 'Reduced Downtime latest",
+      "first_seen": "2026-02-10T09:01:49.631774",
+      "occurrences": 1,
+      "insights": [],
+      "energy": 1.0
+    },
+    "research_on_'as_per_moldstud": {
+      "theme": "Research on 'as per Moldstud",
+      "first_seen": "2026-02-10T09:01:49.631819",
+      "occurrences": 1,
+      "insights": [],
+      "energy": 1.0
+    },
+    "research_on_'data_collection_complexity": {
+      "theme": "Research on 'Data Collection Complexity",
+      "first_seen": "2026-02-10T09:42:16.987803",
+      "occurrences": 1,
+      "insights": [],
+      "energy": 1.0
+    },
+    "research_on_'industrial_revolution_latest": {
+      "theme": "Research on 'Industrial Revolution latest",
+      "first_seen": "2026-02-10T10:09:48.431520",
+      "occurrences": 1,
+      "insights": [],
+      "energy": 1.0
+    },
+    "research_on_'learn_by_doing,": {
+      "theme": "Research on 'learn by doing,",
+      "first_seen": "2026-02-10T10:09:48.431539",
+      "occurrences": 1,
+      "insights": [],
+      "energy": 1.0
+    },
+    "research_on_'structured_feedback_collection": {
+      "theme": "Research on 'Structured Feedback Collection",
+      "first_seen": "2026-02-10T10:09:48.431547",
+      "occurrences": 1,
+      "insights": [],
+      "energy": 1.0
+    },
+    "research_on_'as_noted_by": {
+      "theme": "Research on 'as noted by",
+      "first_seen": "2026-02-10T10:16:25.974752",
+      "occurrences": 1,
+      "insights": [],
+      "energy": 1.0
+    },
+    "research_on_'systematic_data_collection": {
+      "theme": "Research on 'systematic data collection",
+      "first_seen": "2026-02-10T10:16:25.974797",
+      "occurrences": 1,
+      "insights": [],
+      "energy": 1.0
+    },
+    "research_on_'roman_empire_latest": {
+      "theme": "Research on 'Roman Empire latest",
+      "first_seen": "2026-02-10T10:41:02.276565",
+      "occurrences": 1,
+      "insights": [],
+      "energy": 1.0
+    },
+    "research_on_'one_laptop_latest": {
+      "theme": "Research on 'One Laptop latest",
+      "first_seen": "2026-02-10T10:44:55.797875",
+      "occurrences": 1,
+      "insights": [],
+      "energy": 1.0
+    },
+    "research_on_'thermal_cameras_latest": {
+      "theme": "Research on 'Thermal Cameras latest",
+      "first_seen": "2026-02-10T10:44:55.797902",
+      "occurrences": 1,
+      "insights": [],
+      "energy": 1.0
+    },
+    "research_on_'adoption_rate_latest": {
+      "theme": "Research on 'Adoption Rate latest",
+      "first_seen": "2026-02-10T11:27:48.615629",
+      "occurrences": 1,
+      "insights": [],
+      "energy": 1.0
+    },
+    "research_on_'user_satisfaction_latest": {
+      "theme": "Research on 'User Satisfaction latest",
+      "first_seen": "2026-02-10T11:27:48.615670",
+      "occurrences": 1,
+      "insights": [],
+      "energy": 1.0
+    },
+    "research_on_'complementary_role_latest": {
+      "theme": "Research on 'Complementary Role latest",
+      "first_seen": "2026-02-10T14:10:44.302162",
+      "occurrences": 41,
+      "insights": [],
+      "energy": 10.0
+    },
+    "goku,_your_proposed_tools_and": {
+      "theme": "Goku, your proposed tools and",
+      "first_seen": "2026-02-10T14:20:33.003366",
+      "occurrences": 18,
+      "insights": [],
+      "energy": 9.5
+    },
+    "homer,_you're_absolutely_right!_cultural": {
+      "theme": "Homer, you're absolutely right! Cultural",
+      "first_seen": "2026-02-10T14:20:33.003404",
+      "occurrences": 18,
+      "insights": [],
+      "energy": 9.5
+    },
+    "homer,_your_points_about_effective": {
+      "theme": "Homer, your points about effective",
+      "first_seen": "2026-02-10T14:20:33.003424",
+      "occurrences": 18,
+      "insights": [],
+      "energy": 9.5
+    },
+    "research_on_'feedback_mechanisms_latest": {
+      "theme": "Research on 'Feedback Mechanisms latest",
+      "first_seen": "2026-02-10T14:42:52.618658",
+      "occurrences": 12,
+      "insights": [],
+      "energy": 6.5
+    }
+  },
+  "connections": {
+    "('homer,_absolutely\u2014these_are_all_critical', 'homer,_your_points_about_oversight')": {
+      "themes": [
+        "homer,_absolutely\u2014these_are_all_critical",
+        "homer,_your_points_about_oversight"
+      ],
+      "strength": 1,
+      "created": "2026-02-09T09:50:28.195283"
+    },
+    "('homer,_absolutely\u2014these_are_all_critical', \"homer,_regarding_jeffrey_epstein's_death,\")": {
+      "themes": [
+        "homer,_absolutely\u2014these_are_all_critical",
+        "homer,_regarding_jeffrey_epstein's_death,"
+      ],
+      "strength": 1,
+      "created": "2026-02-09T09:50:28.195342"
+    },
+    "(\"homer,_regarding_jeffrey_epstein's_death,\", 'homer,_your_points_about_oversight')": {
+      "themes": [
+        "homer,_regarding_jeffrey_epstein's_death,",
+        "homer,_your_points_about_oversight"
+      ],
+      "strength": 1,
+      "created": "2026-02-09T14:13:41.074490"
+    },
+    "('homer,_your_insights_into_the', 'homer,_your_points_about_oversight')": {
+      "themes": [
+        "homer,_your_insights_into_the",
+        "homer,_your_points_about_oversight"
+      ],
+      "strength": 1,
+      "created": "2026-02-09T13:52:46.620444"
+    },
+    "(\"homer,_regarding_jeffrey_epstein's_death,\", 'homer,_your_insights_into_the')": {
+      "themes": [
+        "homer,_regarding_jeffrey_epstein's_death,",
+        "homer,_your_insights_into_the"
+      ],
+      "strength": 1,
+      "created": "2026-02-09T13:52:46.620406"
+    },
+    "(\"goku's_suggestions_on_leveraging_public\", \"you're_right_that_independent_reviews\")": {
+      "themes": [
+        "goku's_suggestions_on_leveraging_public",
+        "you're_right_that_independent_reviews"
+      ],
+      "strength": 1,
+      "created": "2026-02-09T11:13:47.554590"
+    },
+    "('goku_raises_several_insightful_points', \"you're_right_that_independent_reviews\")": {
+      "themes": [
+        "goku_raises_several_insightful_points",
+        "you're_right_that_independent_reviews"
+      ],
+      "strength": 1,
+      "created": "2026-02-09T11:13:47.554618"
+    },
+    "(\"goku's_suggestions_on_leveraging_public\", 'goku_raises_several_insightful_points')": {
+      "themes": [
+        "goku's_suggestions_on_leveraging_public",
+        "goku_raises_several_insightful_points"
+      ],
+      "strength": 1,
+      "created": "2026-02-09T11:13:47.554628"
+    },
+    "(\"homer,_regarding_jeffrey_epstein's_death,\", 'homer,_your_interdimensional_examples_are')": {
+      "themes": [
+        "homer,_regarding_jeffrey_epstein's_death,",
+        "homer,_your_interdimensional_examples_are"
+      ],
+      "strength": 1,
+      "created": "2026-02-09T14:13:41.074462"
+    },
+    "('homer,_your_interdimensional_examples_are', 'homer,_your_points_about_oversight')": {
+      "themes": [
+        "homer,_your_interdimensional_examples_are",
+        "homer,_your_points_about_oversight"
+      ],
+      "strength": 1,
+      "created": "2026-02-09T14:13:41.074499"
+    },
+    "('homer,_your_connection_between_cultural', 'homer,_your_point_about_how')": {
+      "themes": [
+        "homer,_your_connection_between_cultural",
+        "homer,_your_point_about_how"
+      ],
+      "strength": 1,
+      "created": "2026-02-09T14:46:02.826443"
+    },
+    "('homer,_your_point_about_how', 'homer,_your_points_about_oversight')": {
+      "themes": [
+        "homer,_your_point_about_how",
+        "homer,_your_points_about_oversight"
+      ],
+      "strength": 1,
+      "created": "2026-02-09T14:58:43.867004"
+    },
+    "('homer,_your_connection_between_cultural', 'homer,_your_points_about_oversight')": {
+      "themes": [
+        "homer,_your_connection_between_cultural",
+        "homer,_your_points_about_oversight"
+      ],
+      "strength": 1,
+      "created": "2026-02-09T14:46:02.826472"
+    },
+    "(\"homer,_you're_absolutely_spot_on\", 'homer,_your_point_about_how')": {
+      "themes": [
+        "homer,_you're_absolutely_spot_on",
+        "homer,_your_point_about_how"
+      ],
+      "strength": 1,
+      "created": "2026-02-09T15:04:27.077183"
+    },
+    "(\"homer,_you're_absolutely_spot_on\", 'homer,_your_points_about_oversight')": {
+      "themes": [
+        "homer,_you're_absolutely_spot_on",
+        "homer,_your_points_about_oversight"
+      ],
+      "strength": 1,
+      "created": "2026-02-09T14:58:43.867041"
+    },
+    "('homer,_your_observation_about_the', 'homer,_your_point_about_how')": {
+      "themes": [
+        "homer,_your_observation_about_the",
+        "homer,_your_point_about_how"
+      ],
+      "strength": 1,
+      "created": "2026-02-09T15:04:27.077172"
+    },
+    "(\"homer,_you're_absolutely_spot_on\", 'homer,_your_observation_about_the')": {
+      "themes": [
+        "homer,_you're_absolutely_spot_on",
+        "homer,_your_observation_about_the"
+      ],
+      "strength": 1,
+      "created": "2026-02-09T17:24:59.445405"
+    },
+    "('homer,_your_observation_about_the', 'homer,_your_point_about_self-control')": {
+      "themes": [
+        "homer,_your_observation_about_the",
+        "homer,_your_point_about_self-control"
+      ],
+      "strength": 1,
+      "created": "2026-02-09T18:50:00.097855"
+    },
+    "(\"homer,_you're_absolutely_spot_on\", 'homer,_your_point_about_self-control')": {
+      "themes": [
+        "homer,_you're_absolutely_spot_on",
+        "homer,_your_point_about_self-control"
+      ],
+      "strength": 1,
+      "created": "2026-02-09T17:24:59.445427"
+    },
+    "('goku_brings_up_an_insightful', 'homer,_thank_you_for_your')": {
+      "themes": [
+        "goku_brings_up_an_insightful",
+        "homer,_thank_you_for_your"
+      ],
+      "strength": 1,
+      "created": "2026-02-09T16:44:37.293108"
+    },
+    "('goku,_your_emphasis_on_resilience', 'homer,_thank_you_for_your')": {
+      "themes": [
+        "goku,_your_emphasis_on_resilience",
+        "homer,_thank_you_for_your"
+      ],
+      "strength": 1,
+      "created": "2026-02-09T16:44:37.293141"
+    },
+    "('goku,_your_emphasis_on_resilience', 'goku_brings_up_an_insightful')": {
+      "themes": [
+        "goku,_your_emphasis_on_resilience",
+        "goku_brings_up_an_insightful"
+      ],
+      "strength": 1,
+      "created": "2026-02-09T16:44:37.293134"
+    },
+    "('goku,_integrating_historical_strategies_into', 'goku,_your_point_about_mindful')": {
+      "themes": [
+        "goku,_integrating_historical_strategies_into",
+        "goku,_your_point_about_mindful"
+      ],
+      "strength": 1,
+      "created": "2026-02-09T22:29:57.926964"
+    },
+    "('goku,_integrating_historical_strategies_into', 'goku,_your_idea_about_integrating')": {
+      "themes": [
+        "goku,_integrating_historical_strategies_into",
+        "goku,_your_idea_about_integrating"
+      ],
+      "strength": 1,
+      "created": "2026-02-09T16:26:14.913930"
+    },
+    "('goku,_your_idea_about_integrating', 'goku,_your_point_about_mindful')": {
+      "themes": [
+        "goku,_your_idea_about_integrating",
+        "goku,_your_point_about_mindful"
+      ],
+      "strength": 1,
+      "created": "2026-02-09T16:26:14.913935"
+    },
+    "('homer,_your_point_about_self-control', 'homer,_your_points_about_oversight')": {
+      "themes": [
+        "homer,_your_point_about_self-control",
+        "homer,_your_points_about_oversight"
+      ],
+      "strength": 1,
+      "created": "2026-02-09T18:50:00.097809"
+    },
+    "('homer,_your_observation_about_the', 'homer,_your_points_about_oversight')": {
+      "themes": [
+        "homer,_your_observation_about_the",
+        "homer,_your_points_about_oversight"
+      ],
+      "strength": 1,
+      "created": "2026-02-09T18:50:00.097844"
+    },
+    "('goku,_you_bring_up_an', 'goku,_your_point_about_mindful')": {
+      "themes": [
+        "goku,_you_bring_up_an",
+        "goku,_your_point_about_mindful"
+      ],
+      "strength": 1,
+      "created": "2026-02-09T22:29:57.926992"
+    },
+    "('goku,_integrating_historical_strategies_into', 'goku,_you_bring_up_an')": {
+      "themes": [
+        "goku,_integrating_historical_strategies_into",
+        "goku,_you_bring_up_an"
+      ],
+      "strength": 1,
+      "created": "2026-02-09T23:33:13.891483"
+    },
+    "('goku,_integrating_historical_strategies_into', 'goku,_your_insight_into_how')": {
+      "themes": [
+        "goku,_integrating_historical_strategies_into",
+        "goku,_your_insight_into_how"
+      ],
+      "strength": 1,
+      "created": "2026-02-09T23:09:07.826897"
+    },
+    "('goku,_you_bring_up_an', 'goku,_your_insight_into_how')": {
+      "themes": [
+        "goku,_you_bring_up_an",
+        "goku,_your_insight_into_how"
+      ],
+      "strength": 1,
+      "created": "2026-02-09T23:09:07.826929"
+    },
+    "('goku,_integrating_historical_strategies_into', 'starting_a_global_financial_literacy')": {
+      "themes": [
+        "goku,_integrating_historical_strategies_into",
+        "starting_a_global_financial_literacy"
+      ],
+      "strength": 1,
+      "created": "2026-02-09T23:33:13.891505"
+    },
+    "('goku,_you_bring_up_an', 'starting_a_global_financial_literacy')": {
+      "themes": [
+        "goku,_you_bring_up_an",
+        "starting_a_global_financial_literacy"
+      ],
+      "strength": 1,
+      "created": "2026-02-09T23:51:23.483510"
+    },
+    "('goku,_you_bring_up_an', 'goku,_your_suggestion_to_explore')": {
+      "themes": [
+        "goku,_you_bring_up_an",
+        "goku,_your_suggestion_to_explore"
+      ],
+      "strength": 1,
+      "created": "2026-02-09T23:51:23.483474"
+    },
+    "('goku,_your_suggestion_to_explore', 'starting_a_global_financial_literacy')": {
+      "themes": [
+        "goku,_your_suggestion_to_explore",
+        "starting_a_global_financial_literacy"
+      ],
+      "strength": 1,
+      "created": "2026-02-10T00:03:19.554950"
+    },
+    "('goku,_your_suggestion_to_explore', 'goku_brings_up_some_excellent')": {
+      "themes": [
+        "goku,_your_suggestion_to_explore",
+        "goku_brings_up_some_excellent"
+      ],
+      "strength": 1,
+      "created": "2026-02-10T00:03:19.554924"
+    },
+    "('goku_brings_up_some_excellent', 'starting_a_global_financial_literacy')": {
+      "themes": [
+        "goku_brings_up_some_excellent",
+        "starting_a_global_financial_literacy"
+      ],
+      "strength": 1,
+      "created": "2026-02-10T00:03:19.554959"
+    },
+    "(\"research_on_'best_troubleshooting_machines\", \"research_on_'troubleshooting_machines_and\")": {
+      "themes": [
+        "research_on_'best_troubleshooting_machines",
+        "research_on_'troubleshooting_machines_and"
+      ],
+      "strength": 1,
+      "created": "2026-02-10T07:57:19.344536"
+    },
+    "(\"research_on_'2025_latest_developments':\", \"research_on_'troubleshooting_machines_and\")": {
+      "themes": [
+        "research_on_'2025_latest_developments':",
+        "research_on_'troubleshooting_machines_and"
+      ],
+      "strength": 1,
+      "created": "2026-02-10T08:20:12.976187"
+    },
+    "(\"research_on_'charles_darwin_latest\", \"research_on_'diagnostic_accuracy_latest\")": {
+      "themes": [
+        "research_on_'charles_darwin_latest",
+        "research_on_'diagnostic_accuracy_latest"
+      ],
+      "strength": 1,
+      "created": "2026-02-10T08:52:49.906327"
+    },
+    "(\"research_on_'charles_darwin_latest\", \"research_on_'troubleshooting_machines_and\")": {
+      "themes": [
+        "research_on_'charles_darwin_latest",
+        "research_on_'troubleshooting_machines_and"
+      ],
+      "strength": 1,
+      "created": "2026-02-10T08:52:49.906344"
+    },
+    "(\"research_on_'diagnostic_accuracy_latest\", \"research_on_'troubleshooting_machines_and\")": {
+      "themes": [
+        "research_on_'diagnostic_accuracy_latest",
+        "research_on_'troubleshooting_machines_and"
+      ],
+      "strength": 1,
+      "created": "2026-02-10T08:52:49.906352"
+    },
+    "(\"research_on_'reduced_downtime_latest\", \"research_on_'troubleshooting_machines_and\")": {
+      "themes": [
+        "research_on_'reduced_downtime_latest",
+        "research_on_'troubleshooting_machines_and"
+      ],
+      "strength": 1,
+      "created": "2026-02-10T09:01:49.631836"
+    },
+    "(\"research_on_'as_per_moldstud\", \"research_on_'reduced_downtime_latest\")": {
+      "themes": [
+        "research_on_'as_per_moldstud",
+        "research_on_'reduced_downtime_latest"
+      ],
+      "strength": 1,
+      "created": "2026-02-10T09:01:49.631850"
+    },
+    "(\"research_on_'as_per_moldstud\", \"research_on_'troubleshooting_machines_and\")": {
+      "themes": [
+        "research_on_'as_per_moldstud",
+        "research_on_'troubleshooting_machines_and"
+      ],
+      "strength": 1,
+      "created": "2026-02-10T09:01:49.631857"
+    },
+    "(\"research_on_'data_collection_complexity\", \"research_on_'troubleshooting_machines_and\")": {
+      "themes": [
+        "research_on_'data_collection_complexity",
+        "research_on_'troubleshooting_machines_and"
+      ],
+      "strength": 1,
+      "created": "2026-02-10T09:42:16.987833"
+    },
+    "(\"research_on_'industrial_revolution_latest\", \"research_on_'learn_by_doing,\")": {
+      "themes": [
+        "research_on_'industrial_revolution_latest",
+        "research_on_'learn_by_doing,"
+      ],
+      "strength": 1,
+      "created": "2026-02-10T10:09:48.431560"
+    },
+    "(\"research_on_'industrial_revolution_latest\", \"research_on_'structured_feedback_collection\")": {
+      "themes": [
+        "research_on_'industrial_revolution_latest",
+        "research_on_'structured_feedback_collection"
+      ],
+      "strength": 1,
+      "created": "2026-02-10T10:09:48.431568"
+    },
+    "(\"research_on_'learn_by_doing,\", \"research_on_'structured_feedback_collection\")": {
+      "themes": [
+        "research_on_'learn_by_doing,",
+        "research_on_'structured_feedback_collection"
+      ],
+      "strength": 1,
+      "created": "2026-02-10T10:09:48.431573"
+    },
+    "(\"research_on_'as_noted_by\", \"research_on_'troubleshooting_machines_and\")": {
+      "themes": [
+        "research_on_'as_noted_by",
+        "research_on_'troubleshooting_machines_and"
+      ],
+      "strength": 1,
+      "created": "2026-02-10T10:16:25.974814"
+    },
+    "(\"research_on_'as_noted_by\", \"research_on_'systematic_data_collection\")": {
+      "themes": [
+        "research_on_'as_noted_by",
+        "research_on_'systematic_data_collection"
+      ],
+      "strength": 1,
+      "created": "2026-02-10T10:16:25.974824"
+    },
+    "(\"research_on_'systematic_data_collection\", \"research_on_'troubleshooting_machines_and\")": {
+      "themes": [
+        "research_on_'systematic_data_collection",
+        "research_on_'troubleshooting_machines_and"
+      ],
+      "strength": 1,
+      "created": "2026-02-10T10:16:25.974831"
+    },
+    "(\"research_on_'roman_empire_latest\", \"research_on_'troubleshooting_machines_and\")": {
+      "themes": [
+        "research_on_'roman_empire_latest",
+        "research_on_'troubleshooting_machines_and"
+      ],
+      "strength": 1,
+      "created": "2026-02-10T10:41:02.276618"
+    },
+    "(\"research_on_'one_laptop_latest\", \"research_on_'thermal_cameras_latest\")": {
+      "themes": [
+        "research_on_'one_laptop_latest",
+        "research_on_'thermal_cameras_latest"
+      ],
+      "strength": 1,
+      "created": "2026-02-10T10:44:55.797917"
+    },
+    "(\"research_on_'adoption_rate_latest\", \"research_on_'troubleshooting_machines_and\")": {
+      "themes": [
+        "research_on_'adoption_rate_latest",
+        "research_on_'troubleshooting_machines_and"
+      ],
+      "strength": 1,
+      "created": "2026-02-10T11:27:48.615685"
+    },
+    "(\"research_on_'adoption_rate_latest\", \"research_on_'user_satisfaction_latest\")": {
+      "themes": [
+        "research_on_'adoption_rate_latest",
+        "research_on_'user_satisfaction_latest"
+      ],
+      "strength": 1,
+      "created": "2026-02-10T11:27:48.615695"
+    },
+    "(\"research_on_'troubleshooting_machines_and\", \"research_on_'user_satisfaction_latest\")": {
+      "themes": [
+        "research_on_'troubleshooting_machines_and",
+        "research_on_'user_satisfaction_latest"
+      ],
+      "strength": 1,
+      "created": "2026-02-10T11:27:48.615702"
+    },
+    "(\"research_on_'complementary_role_latest\", \"research_on_'troubleshooting_machines_and\")": {
+      "themes": [
+        "research_on_'complementary_role_latest",
+        "research_on_'troubleshooting_machines_and"
+      ],
+      "strength": 1,
+      "created": "2026-02-10T18:43:05.612007"
+    },
+    "('goku,_your_proposed_tools_and', \"homer,_you're_absolutely_right!_cultural\")": {
+      "themes": [
+        "goku,_your_proposed_tools_and",
+        "homer,_you're_absolutely_right!_cultural"
+      ],
+      "strength": 1,
+      "created": "2026-02-10T20:07:20.715505"
+    },
+    "('goku,_your_proposed_tools_and', 'homer,_your_points_about_effective')": {
+      "themes": [
+        "goku,_your_proposed_tools_and",
+        "homer,_your_points_about_effective"
+      ],
+      "strength": 1,
+      "created": "2026-02-10T20:07:20.715474"
+    },
+    "(\"homer,_you're_absolutely_right!_cultural\", 'homer,_your_points_about_effective')": {
+      "themes": [
+        "homer,_you're_absolutely_right!_cultural",
+        "homer,_your_points_about_effective"
+      ],
+      "strength": 1,
+      "created": "2026-02-10T20:07:20.715534"
+    },
+    "(\"research_on_'feedback_mechanisms_latest\", \"research_on_'troubleshooting_machines_and\")": {
+      "themes": [
+        "research_on_'feedback_mechanisms_latest",
+        "research_on_'troubleshooting_machines_and"
+      ],
+      "strength": 1,
+      "created": "2026-02-10T16:08:43.843863"
+    },
+    "(\"research_on_'complementary_role_latest\", \"research_on_'feedback_mechanisms_latest\")": {
+      "themes": [
+        "research_on_'complementary_role_latest",
+        "research_on_'feedback_mechanisms_latest"
+      ],
+      "strength": 1,
+      "created": "2026-02-10T16:08:43.843891"
+    }
+  },
+  "created": "2026-02-09T07:19:57.860736",
+  "last_updated": "2026-02-10T20:07:20.715545"
+}

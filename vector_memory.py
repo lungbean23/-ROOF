@@ -1,6 +1,6 @@
 """
-Qdrant Vector Memory for ┴ROOF Radio
-Modern vector database with Python 3.14 support
+Qdrant Vector Memory for ┴ROOF Radio with Botanical Integration
+Modern vector database with Python 3.14 support + Taraxacum & Trillium
 """
 
 from qdrant_client import QdrantClient
@@ -8,16 +8,19 @@ from qdrant_client.models import Distance, VectorParams, PointStruct
 from datetime import datetime
 from pathlib import Path
 
+# Import botanicals
+from botanicals.taraxacum import TaraxacumSeedSpreader, TaraxacumGerminator
+from botanicals.trillium import TrilliumRhizome, TrilliumThreePetals
+
 
 class VectorConversationMemory:
     """
-    Qdrant-based semantic conversation memory
+    Qdrant-based semantic conversation memory with botanical enhancements
     
-    Superior to ChromaDB:
-    - Full Python 3.14 support
-    - Faster similarity search
-    - Better scaling
-    - Built-in embeddings via FastEmbed
+    Three-layer memory architecture:
+    1. Buffer (this class) - Immediate caching (seconds to minutes)
+    2. Trillium - Deep persistent wisdom (days/weeks/months)
+    3. Taraxacum - Survival seeds across context death
     """
     
     def __init__(self, host_name, persist_dir="data/conversation_vectors"):
@@ -54,7 +57,32 @@ class VectorConversationMemory:
         
         self.exchange_count = 0
         
-        print(f"[Vector Memory (Qdrant) initialized for {host_name}]")
+        # Initialize botanicals
+        self.taraxacum_spreader = TaraxacumSeedSpreader()
+        self.taraxacum_germinator = TaraxacumGerminator()
+        self.trillium_rhizome = TrilliumRhizome()
+        self.trillium_petals = TrilliumThreePetals()
+        
+        # Context monitoring for death detection
+        self.context_tokens_estimate = 0
+        self.context_max_tokens = 100000  # Conservative estimate
+        
+        print(f"[Vector Memory (Qdrant) + Botanicals initialized for {host_name}]")
+        
+        # Try to germinate seeds from previous conversation
+        self._startup_from_seeds()
+    
+    def _startup_from_seeds(self):
+        """Attempt to continue from previous conversation seeds"""
+        seed = self.taraxacum_germinator.select_seed(self.host_name)
+        if seed:
+            context = self.taraxacum_germinator.germinate_seed(seed)
+            print(f"\n[🌱 {self.host_name} continuing from previous conversation]")
+            print(f"[Seed phenotype: {seed.get('phenotype')}]")
+            # Store germination context for later retrieval
+            self.germination_context = context
+            return context
+        return None
     
     def _generate_embedding(self, text):
         """
@@ -82,15 +110,39 @@ class VectorConversationMemory:
         unique_str = f"{self.host_name}_{exchange_num}_{text[:50]}"
         return str(uuid.uuid5(namespace, unique_str))
     
+    def _estimate_context_usage(self):
+        """Estimate current context window usage"""
+        # Rough estimate: ~4 chars per token
+        estimated_tokens = self.context_tokens_estimate
+        usage_ratio = estimated_tokens / self.context_max_tokens
+        return usage_ratio
+    
+    def _extract_themes(self, recent_exchanges):
+        """Extract themes from recent exchanges for botanicals"""
+        themes = []
+        for ex in recent_exchanges[-3:]:  # Last 3 exchanges
+            msg = ex.get('message', '')
+            # Simple extraction - just use first few words as theme proxy
+            words = msg.split()[:5]
+            if len(words) >= 3:
+                themes.append(' '.join(words))
+        return list(set(themes))[:3]  # Unique, max 3
+    
     def add_exchange(self, message, other_host_message=None, research_context=None):
         """
-        Add exchange to Qdrant vector database
+        Add exchange to Qdrant vector database + feed botanicals
         
         Stores:
-        - Message as vector embedding
-        - Rich metadata (exchange #, timestamp, host, research)
+        - Message as vector embedding (buffer)
+        - Feeds Trillium rhizome (deep memory)
+        - Monitors for context death (Taraxacum trigger)
         """
         self.exchange_count += 1
+        
+        # Update context estimate (rough)
+        self.context_tokens_estimate += len(message) // 4
+        if other_host_message:
+            self.context_tokens_estimate += len(other_host_message) // 4
         
         # Generate embedding for the message
         message_vector = self._generate_embedding(message)
@@ -109,7 +161,7 @@ class VectorConversationMemory:
             payload["has_research"] = True
             payload["research_query"] = research_context.get("query", "")
         
-        # Store in Qdrant
+        # Store in Qdrant (buffer)
         point_id = self._generate_id(message, self.exchange_count)
         
         self.client.upsert(
@@ -137,7 +189,7 @@ class VectorConversationMemory:
                 "context_for": self.host_name
             }
             
-            # Generate separate UUID for context (with different namespace component)
+            # Generate separate UUID for context
             import uuid
             namespace = uuid.UUID('6ba7b810-9dad-11d1-80b4-00c04fd430c8')
             context_str = f"{other_name}_context_{self.exchange_count}_{other_host_message[:50]}"
@@ -155,6 +207,71 @@ class VectorConversationMemory:
             )
         
         print(f"[Qdrant: Stored exchange #{self.exchange_count}]")
+        
+        # BOTANICAL INTEGRATION
+        
+        # 1. Feed Trillium rhizome (every 3 exchanges during healthy conversation)
+        context_usage = self._estimate_context_usage()
+        if self.exchange_count % 3 == 0 and context_usage < 0.6:
+            recent = self.get_recent_flow(3)
+            themes = self._extract_themes(recent)
+            if themes:
+                self.trillium_rhizome.deepen_roots(themes)
+        
+        # 2. Check for context death (Taraxacum activation threshold)
+        if context_usage > 0.8:
+            self._prepare_for_death()
+    
+    def _prepare_for_death(self):
+        """
+        TARAXACUM: Scatter seeds before context death
+        
+        Called when context usage > 80%
+        """
+        print(f"\n[⚠️  {self.host_name} context pressure: {self._estimate_context_usage():.1%}]")
+        
+        # Get recent exchanges
+        recent_exchanges = self.get_recent_flow(5)
+        
+        # Extract themes
+        themes = self._extract_themes(recent_exchanges)
+        
+        # Build conversation state
+        conversation_state = {
+            "host_name": self.host_name,
+            "recent_exchanges": recent_exchanges,
+            "themes": themes,
+            "unanswered_questions": []  # Could track these
+        }
+        
+        # Scatter seeds
+        report = self.taraxacum_spreader.prepare_for_death(conversation_state)
+        print(f"[🌼 {self.host_name} scattered {report['seed_count']} seeds for next generation]")
+    
+    def get_deep_wisdom(self, current_topic):
+        """
+        TRILLIUM: Retrieve accumulated wisdom from rhizome
+        
+        Returns themes and insights from all past conversations
+        """
+        return self.trillium_rhizome.get_deep_context([current_topic])
+    
+    def verify_response_balance(self, response):
+        """
+        TRILLIUM: Use three petals to verify response quality
+        
+        Returns balance score and recommendations
+        """
+        recent = self.get_recent_flow(3)
+        
+        verification = self.trillium_petals.verify_statement(
+            statement=response,
+            past_context=recent,
+            current_facts={},  # Could add research findings here
+            intended_direction=""  # Could track conversation goals
+        )
+        
+        return verification
     
     def get_relevant_context(self, current_topic, n_results=3):
         """
@@ -173,7 +290,7 @@ class VectorConversationMemory:
         # Generate query vector
         query_vector = self._generate_embedding(current_topic)
         
-        # Search Qdrant for similar exchanges using query() method
+        # Search Qdrant for similar exchanges
         search_results = self.client.query_points(
             collection_name=self.collection_name,
             query=query_vector,
@@ -201,23 +318,19 @@ class VectorConversationMemory:
         return relevant
     
     def get_recent_flow(self, n_exchanges=2):
-        """
-        Get most recent exchanges in chronological order
-        
-        Uses scroll API to get latest points
-        """
+        """Get most recent exchanges in chronological order"""
         if self.exchange_count == 0:
             return []
         
         # Scroll through all points
         points, _ = self.client.scroll(
             collection_name=self.collection_name,
-            limit=100,  # Get last 100
+            limit=100,
             with_payload=True,
             with_vectors=False
         )
         
-        # Filter to only main exchanges (not context)
+        # Filter to only main exchanges
         main_exchanges = [
             p for p in points 
             if p.payload.get("host") == self.host_name and "context_for" not in p.payload
@@ -238,18 +351,14 @@ class VectorConversationMemory:
         } for ex in recent]
     
     def should_avoid_statement(self, potential_statement, similarity_threshold=0.85):
-        """
-        Check if statement is too similar to recent exchanges
-        
-        Uses vector similarity for accurate semantic matching
-        """
+        """Check if statement is too similar to recent exchanges"""
         if self.exchange_count == 0:
             return False
         
         # Generate embedding
         query_vector = self._generate_embedding(potential_statement)
         
-        # Search for similar statements using query() method
+        # Search for similar statements
         results = self.client.query_points(
             collection_name=self.collection_name,
             query=query_vector,
@@ -280,7 +389,7 @@ class VectorConversationMemory:
         return "\n".join(summary_parts)
     
     def clear(self):
-        """Clear all conversation memory"""
+        """Clear all conversation memory (buffer only, botanicals persist)"""
         try:
             self.client.delete_collection(self.collection_name)
             print(f"[Qdrant: Deleted collection '{self.collection_name}']")
@@ -297,4 +406,6 @@ class VectorConversationMemory:
         )
         
         self.exchange_count = 0
+        self.context_tokens_estimate = 0
         print(f"[Qdrant: Collection cleared for {self.host_name}]")
+        print("[Note: Trillium rhizome and Taraxacum seeds persist across resets]")
