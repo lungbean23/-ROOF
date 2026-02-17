@@ -322,6 +322,35 @@ Press `Ctrl+C` to save and exit gracefully.
 
 ---
 
+## Writers Room Guide System 🎬
+
+The Guide system keeps conversations on-track through 4 layers:
+
+**Phase 1 - The Point** 📍
+Tracks the essence of what's being discussed, evolving facets as the conversation develops.
+
+**Phase 2 - Director Monitoring** 👁️
+The Director observes The Point's saturation and strength, logging metrics every 5 exchanges.
+
+**Phase 3 - Gravitational Pull** 🌟
+When hosts drift >85% away from The Point, the Director issues a correction directive.
+
+**Phase 4 - Arc Trackers** 🎯
+Individual host arc tracking detects question dodging and topic misalignment.
+
+### Usage
+```bash
+# Fresh start (clears vector memory)
+python3 troof.py --fresh "your topic"
+
+# Continue with memory
+python3 troof.py "follow-up topic"
+
+# Inspect database contamination
+python3 inspect_db.py
+```
+
+**Result:** Natural, coherent conversations that stay focused without being rigid.
 ## 🤝 Contributing
 
 Found a bug? Have an idea? PRs welcome!
