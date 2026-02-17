@@ -23,6 +23,31 @@ class VectorConversationMemory:
     3. Taraxacum - Survival seeds across context death
     """
     
+
+    @staticmethod
+    def clear_all_collections():
+        """Nuclear option: Delete all Qdrant collections for fresh start"""
+        import shutil
+        from pathlib import Path
+        
+        data_dir = Path("data")
+        
+        # Collections to clear
+        collections = [
+            "goku_conversation",
+            "homer_conversation", 
+            "intern_taco_conversation",
+            "intern_clunt_conversation",
+            "director_conversation"
+        ]
+        
+        for collection_name in collections:
+            collection_path = data_dir / f"{collection_name}"
+            if collection_path.exists():
+                shutil.rmtree(collection_path)
+                print(f"[🗑️  Cleared: {collection_name}]")
+
+
     def __init__(self, host_name, persist_dir="data/conversation_vectors"):
         self.host_name = host_name
         self.persist_dir = Path(persist_dir)

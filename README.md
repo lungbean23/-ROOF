@@ -92,6 +92,8 @@ pip install -r requirements.txt
 
 # 4. Run!
 python3 troof.py "waking up early"
+
+python3 troof.py --fresh "your new topic"
 ```
 
 ### First Run Output
